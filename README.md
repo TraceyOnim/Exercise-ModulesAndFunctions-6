@@ -7,8 +7,8 @@ If our guess is too small, then the answer lies between one more than our
 guess and the end of the range.
 Your API will be guess(actual, range) , where range is an Elixir range. Your
 output should look similar to this:
-
-`iex> Chop.guess(273, 1..1000)
+`
+iex> Chop.guess(273, 1..1000)
       Is it 500
       Is it 250
       Is it 375
@@ -16,4 +16,5 @@ output should look similar to this:
       Is it 281
       Is it 265
       Is it 273
-      273`
+      273
+`
